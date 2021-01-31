@@ -1,0 +1,3 @@
+# Executando a carga dos dados
+load data local inpath '/home/everis/DadosBO_2020_Outubro_ROUBO_DE_CELULAR.csv'
+into table roubo_celular partition(particao='2021-01-30');
